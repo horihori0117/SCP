@@ -1340,6 +1340,7 @@ with open("cpm.csv", "w", encoding="utf-8") as f:
 
 # ✅ Google Colab 用：個体値の SCP ランキングツール（HTMLカード形式 + タイ順位対応）
 
+import streamlit as st
 import csv
 import math
 import ipywidgets as widgets
